@@ -15,7 +15,7 @@
     height: 40vh;
     max-height: 320px;
     align-items: flex-end;
-    background: #000;
+    background: var(--bg);
   }
   .home-name {
     font-size: 2.2rem;

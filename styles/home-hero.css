@@ -30,14 +30,15 @@
   flex: 1 1 0;
   height: 100vh;
   position: relative;
-  background: url('../background.jpg') center center/cover no-repeat;
+  background: url('../resources/background.jpg') center center/cover no-repeat;
 }
 .home-image-bg::before {
   content: '';
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.7);
+  /* Radial gradient: more fade at edges, less at center */
+  background: radial-gradient(circle at 60% 50%, rgba(0,0,0,0.25) 40%, rgba(0,0,0,0.65) 100%);
 }
 [data-theme="light"] .home-image-bg::before {
-  background: rgba(229,229,229,0.85);
+  background: radial-gradient(circle at 60% 50%, rgba(255,255,255,0.10) 40%, rgba(255,255,255,0.60) 100%);
 } 
