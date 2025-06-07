@@ -527,4 +527,27 @@ html {
 [data-theme="light"] .drawer-links a:hover,
 [data-theme="light"] .drawer-links a:focus {
   color: #232946 !important;
+}
+
+/* LinkedIn SVG theming */
+[data-theme="dark"] .linkedin-bg {
+  fill: #0A66C2;
+}
+[data-theme="dark"] .linkedin-in {
+  fill: #fff;
+}
+[data-theme="light"] .linkedin-bg {
+  fill: #fff;
+}
+[data-theme="light"] .linkedin-in {
+  fill: #0A66C2;
+  stroke: #0A66C2;
+  stroke-width: 0.5;
+}
+
+[data-theme="dark"] .linkedin-in-light {
+  display: none;
+}
+[data-theme="light"] .linkedin-in-light {
+  display: inline;
 } 
