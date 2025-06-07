@@ -1,0 +1,43 @@
+/* Home Hero Section */
+.home-hero {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+.home-content {
+  position: relative;
+  height: 100vh;
+  width: 40vw;
+  min-width: 320px;
+  display: flex;
+  align-items: center;
+  background: var(--bg);
+  z-index: 2;
+}
+.home-name {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  margin-left: 6vw;
+}
+.home-image-bg {
+  flex: 1 1 0;
+  height: 100vh;
+  position: relative;
+  background: url('../background.jpg') center center/cover no-repeat;
+}
+.home-image-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+}
+[data-theme="light"] .home-image-bg::before {
+  background: rgba(229,229,229,0.85);
+} 

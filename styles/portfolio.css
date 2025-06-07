@@ -1,49 +1,4 @@
-/* All styles have been modularized into styles/theme.css, styles/home-hero.css, styles/portfolio.css, and styles/responsive.css */
-
-/* CSS Variables for Light and Dark Themes */
-:root {
-  --bg: #f6f7fb;
-  --text: #232946;
-  --accent: #8b5cf6;
-  --card-bg: #fff;
-  --card-shadow: 0 4px 24px rgba(139,92,246,0.07);
-  --border: #e0e7ef;
-  --badge-bg: #e0e7ef;
-  --badge-text: #232946;
-  --input-bg: #fff;
-  --input-border: #c7d0e0;
-  --link: #5ac8fa;
-  --link-hover: #8b5cf6;
-}
-[data-theme="dark"] {
-  --bg: #232946;
-  --text: #f6f7fb;
-  --accent: #5ac8fa;
-  --card-bg: #2a2d3a;
-  --card-shadow: 0 4px 24px rgba(90,200,250,0.10);
-  --border: #35374b;
-  --badge-bg: #35374b;
-  --badge-text: #f6f7fb;
-  --input-bg: #2a2d3a;
-  --input-border: #35374b;
-  --link: #8b5cf6;
-  --link-hover: #5ac8fa;
-}
-[data-theme="light"] {
-  --bg: #e5e5e5;
-  --text: #232946;
-  --accent: rgb(204,204,255);
-  --card-bg: #fff;
-  --card-shadow: 0 4px 24px rgba(139,92,246,0.07);
-  --border: #e0e7ef;
-  --badge-bg: #e0e7ef;
-  --badge-text: #232946;
-  --input-bg: #fff;
-  --input-border: #c7d0e0;
-  --link: rgb(204,204,255);
-  --link-hover: rgb(204,204,255);
-}
-
+/* Portfolio Main Content & Timeline */
 body {
   font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
   background: var(--bg);
@@ -91,7 +46,7 @@ body {
   margin-bottom: 1.2rem;
 }
 .hero-socials {
-  margin: 1rem 0 1.5rem 0;
+  margin: 1rem 0 0 0;
 }
 .hero-socials .icon-link {
   display: inline-block;
@@ -317,7 +272,6 @@ h2 {
 .contact-form button:hover {
   background: var(--link);
 }
-
 .footer {
   text-align: center;
   padding: 1.2rem 0 0.7rem 0;
@@ -372,168 +326,13 @@ h2 {
   to { transform: scale(1); opacity: 1; }
 }
 
-@media (max-width: 700px) {
-  main {
-    padding: 1rem 0.2rem;
-  }
-  .hero {
-    padding: 2.5rem 0.5rem 1.2rem 0.5rem;
-  }
-  .project-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (min-width: 700px) {
-  .exp-meta {
-    flex-direction: row;
-    align-items: center;
-  }
-  .exp-meta .exp-role {
-    flex: 1 1 0;
-    min-width: 120px;
-    text-align: left;
-  }
-  .exp-meta .exp-location {
-    min-width: 160px;
-    text-align: right;
-    margin-left: auto;
-  }
-  .exp-meta .exp-date {
-    min-width: 140px;
-    text-align: right;
-    margin-left: 1.2rem;
-  }
-}
-
-@media (max-width: 900px) {
-  .exp-summary, .timeline-content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .exp-summary h3 {
-    min-width: 0;
-    margin-right: 0;
-    margin-left: 0;
-    text-align: left;
-  }
-  .exp-meta {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .exp-meta .exp-role, .exp-meta .exp-date, .exp-meta .exp-location {
-    min-width: 0;
-    flex: unset;
-    text-align: left;
-    margin: 0;
-  }
-}
-
-[data-theme="light"] h1,
-[data-theme="light"] h2,
-[data-theme="light"] h3 {
-  color: var(--text);
-}
-
-[data-theme="light"] .role,
-[data-theme="light"] .hero-socials .icon,
-[data-theme="light"] .hero-socials .icon-link,
-[data-theme="light"] .hero-socials .icon-link:hover .icon,
-[data-theme="light"] .project-tech,
-[data-theme="light"] .project-card a {
-  color: var(--text) !important;
-}
-
-[data-theme="light"] .exp-role,
-[data-theme="light"] .exp-date,
-[data-theme="light"] .exp-location,
-[data-theme="light"] .exp-meta,
-[data-theme="light"] .exp-summary h3,
-[data-theme="light"] .footer,
-[data-theme="light"] .contact-links a,
-[data-theme="light"] .hero-socials .icon {
-  color: var(--text) !important;
-}
-
-[data-theme="light"] .hero-socials .icon {
-  color: var(--text) !important;
-  stroke: var(--text) !important;
-}
-[data-theme="light"] .timeline {
-  border-left: 3px solid var(--text) !important;
-}
-
-[data-theme="light"] .timeline-dot {
-  background: var(--text) !important;
-  border-color: var(--text) !important;
-}
-
 .exp-meta-right {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  min-width: 140px;
-  margin-left: auto;
-}
-.exp-meta-right .exp-location {
-  font-style: italic;
-  text-align: right;
-}
-.exp-meta-right .exp-date {
-  font-size: 0.97em;
-  text-align: right;
-  margin-top: 0.1em;
+  gap: 0.1em;
 }
 
-.home-hero {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-  overflow: hidden;
-}
-.home-content {
-  position: relative;
-  height: 100vh;
-  width: 40vw;
-  min-width: 320px;
-  display: flex;
-  align-items: center;
-  background: #000;
-  z-index: 2;
-}
-[data-theme="light"] .home-content {
-  background: #fff;
-}
-.home-name {
-  position: relative;
-  z-index: 2;
-  color: #fff;
-  font-size: 3.5rem;
-  font-weight: 800;
-  letter-spacing: 2px;
-  text-shadow: 0 4px 24px rgba(0,0,0,0.18);
-  margin-left: 6vw;
-}
-[data-theme="light"] .home-name {
-  color: var(--text);
-}
-.home-image-bg {
-  flex: 1 1 0;
-  height: 100vh;
-  position: relative;
-  background: url('background.jpg') center center/cover no-repeat;
-}
-.home-image-bg::before {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background: rgba(0,0,0,0.7);
-}
-[data-theme="light"] .home-image-bg::before {
-  background: rgba(255,255,255,0.7);
-}
-.main-content {
-  position: relative;
-  z-index: 2100;
+.about h2 {
+  margin-top: -0.5rem;
 } 

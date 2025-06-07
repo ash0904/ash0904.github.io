@@ -1,0 +1,28 @@
+[
+  {
+    "institution": "International Institute of Information Technology Hyderabad (IIITH)",
+    "degree": "B.Tech, Computer Science",
+    "location": "Hyderabad, India",
+    "date": "2015 - 2019",
+    "summary": [
+      "Completed Bachelors Degree (B.Tech) in Computer Science and Engineering (CSE)."
+    ],
+    "details": [
+      "Relevant coursework: Distributed Systems, Game Design, IT Workshop, Unix Shell, Bash scripting, Javascript, Python, Flask.",
+      "Teaching Assistant for multiple courses."
+    ]
+  },
+  {
+    "institution": "New Digamber Public School",
+    "degree": "High School",
+    "location": "Indore, India",
+    "date": "1999 - 2014",
+    "summary": [
+      "Completed high school education with a focus on science and mathematics."
+    ],
+    "details": [
+      "Participated in science fairs and mathematics olympiads.",
+      "Active in extracurricular activities and student organizations."
+    ]
+  }
+] 

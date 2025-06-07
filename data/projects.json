@@ -1,0 +1,43 @@
+[
+  {
+    "title": "Compiler for C-Like Language",
+    "description": "Fully-functional compiler for a C-like language. Built parser, scanner, AST, interpreter, and code generator.",
+    "tech": "C++, Flex, Bison, LLVM",
+    "github": "https://github.com/ash0904/Compiler-for-C-Like-Language"
+  },
+  {
+    "title": "Computer Vision: ROI Extraction",
+    "description": "Deep learning model in PyTorch to segment road pixels from aerial images. 6226 images, 65%+ accuracy.",
+    "tech": "PyTorch"
+  },
+  {
+    "title": "Wiki Search Engine",
+    "description": "Efficient, scalable search engine in Python for Wikipedia documents (63+ GB). TF/IDF, semantic and link-based heuristics.",
+    "tech": "Python, TF/IDF",
+    "github": "https://github.com/ash0904/Wiki-Search-Engine"
+  },
+  {
+    "title": "AI Bot for 4x4 Ultimate-Tic-Tac-Toe",
+    "description": "AI agent in Python using alpha-beta pruning and heuristics. Qualified for intra-batch tournament semi-finals.",
+    "tech": "Python",
+    "github": "https://github.com/ash0904/botForUltimateTicTacToe4x4"
+  },
+  {
+    "title": "Bridging Video Content With Comments",
+    "description": "Forked project to bridge video content with user comments for enhanced engagement and interactivity.",
+    "tech": "Python",
+    "github": "https://github.com/ash0904/Bridging-Video-Content-With-Comments"
+  },
+  {
+    "title": "Python Multithreaded Web Server",
+    "description": "Implemented a Python multithreaded server handling GET, POST, HTTPS requests, and DoS attack mitigation.",
+    "tech": "Python, HTML",
+    "github": "https://github.com/ash0904/Python-multithreaded-web-server"
+  },
+  {
+    "title": "Bloxorz Opengl 3D Game",
+    "description": "Basic implementation of the Bloxorz puzzle game in 3D using OpenGL.",
+    "tech": "C++, OpenGL",
+    "github": "https://github.com/ash0904/Bloxorz_Opengl3DGame"
+  }
+] 

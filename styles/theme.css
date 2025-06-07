@@ -1,0 +1,80 @@
+/* Theme and Color Variables */
+:root {
+  --bg: #f6f7fb;
+  --text: #232946;
+  --accent: #8b5cf6;
+  --card-bg: #fff;
+  --card-shadow: 0 4px 24px rgba(139,92,246,0.07);
+  --border: #e0e7ef;
+  --badge-bg: #e0e7ef;
+  --badge-text: #232946;
+  --input-bg: #fff;
+  --input-border: #c7d0e0;
+  --link: #5ac8fa;
+  --link-hover: #8b5cf6;
+}
+[data-theme="dark"] {
+  --bg: #232946;
+  --text: #f6f7fb;
+  --accent: #5ac8fa;
+  --card-bg: #2a2d3a;
+  --card-shadow: 0 4px 24px rgba(90,200,250,0.10);
+  --border: #35374b;
+  --badge-bg: #35374b;
+  --badge-text: #f6f7fb;
+  --input-bg: #2a2d3a;
+  --input-border: #35374b;
+  --link: #8b5cf6;
+  --link-hover: #5ac8fa;
+}
+[data-theme="light"] {
+  --bg: #e5e5e5;
+  --text: #232946;
+  --accent: rgb(204,204,255);
+  --card-bg: #fff;
+  --card-shadow: 0 4px 24px rgba(139,92,246,0.07);
+  --border: #e0e7ef;
+  --badge-bg: #e0e7ef;
+  --badge-text: #232946;
+  --input-bg: #fff;
+  --input-border: #c7d0e0;
+  --link: rgb(204,204,255);
+  --link-hover: rgb(204,204,255);
+}
+[data-theme="light"] h1,
+[data-theme="light"] h2,
+[data-theme="light"] h3 {
+  color: var(--text);
+}
+[data-theme="light"] .role,
+[data-theme="light"] .hero-socials .icon,
+[data-theme="light"] .hero-socials .icon-link,
+[data-theme="light"] .hero-socials .icon-link:hover .icon,
+[data-theme="light"] .project-tech,
+[data-theme="light"] .project-card a {
+  color: var(--text) !important;
+}
+[data-theme="light"] .exp-role,
+[data-theme="light"] .exp-date,
+[data-theme="light"] .exp-location,
+[data-theme="light"] .exp-meta,
+[data-theme="light"] .exp-summary h3,
+[data-theme="light"] .footer,
+[data-theme="light"] .contact-links a,
+[data-theme="light"] .hero-socials .icon {
+  color: var(--text) !important;
+}
+[data-theme="light"] .hero-socials .icon {
+  color: var(--text) !important;
+  stroke: var(--text) !important;
+}
+[data-theme="light"] .timeline {
+  border-left: 3px solid var(--text) !important;
+}
+[data-theme="light"] .timeline-dot {
+  background: var(--text) !important;
+  border-color: var(--text) !important;
+}
+[data-theme="light"] .project-card h3 {
+  color: var(--text) !important;
+} 

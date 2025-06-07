@@ -1,0 +1,8 @@
+{
+  "message": "Want to connect or collaborate? Reach out via email or socials below!",
+  "contacts": [
+    { "label": "Email", "url": "mailto:harshitmahajan0904@gmail.com", "icon": "email" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/hrm0904", "icon": "linkedin" },
+    { "label": "GitHub", "url": "https://github.com/ash0904", "icon": "github" }
+  ]
+} 

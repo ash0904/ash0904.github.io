@@ -1,0 +1,61 @@
+[
+  {
+    "organization": "Google",
+    "role": "Senior Software Engineer",
+    "location": "London, UK",
+    "date": "Mar 2022 - Present",
+    "summary": [
+      "Dividing Android into updatable modules and safely updating them on >1.8 billion devices.",
+      "Ensured safe recovery from Android platform crashes."
+    ],
+    "details": [
+      "Led a cross-functional team to modularize the Android platform, enabling seamless updates and reducing device fragmentation.",
+      "Designed and implemented robust recovery mechanisms for Android platform crashes, improving reliability for billions of users.",
+      "Collaborated with global teams to ensure backward compatibility and security during module updates.",
+      "Mentored junior engineers and contributed to open-source Android projects."
+    ]
+  },
+  {
+    "organization": "Uber",
+    "role": "Software Engineer 2",
+    "location": "Hyderabad, India",
+    "date": "Jul 2019 - Mar 2022",
+    "summary": [
+      "Reliably processed and integrated new Payment Methods across the globe."
+    ],
+    "details": [
+      "Integrated and managed global payment gateways, supporting millions of daily transactions.",
+      "Refactored payment flows to reduce fraud and improve fallback reliability.",
+      "Worked closely with product and infra teams to launch new payment features in multiple regions.",
+      "Provided on-call support and resolved critical payment issues for Uber's core platform."
+    ]
+  },
+  {
+    "organization": "IIIT Hyderabad",
+    "role": "Teaching Assistant",
+    "location": "Hyderabad, India",
+    "date": "Jan 2018 - May 2019",
+    "summary": [
+      "TA for Distributed Systems, Game Design, and IT Workshop courses."
+    ],
+    "details": [
+      "Assisted in course design, lab sessions, and grading for 200+ students.",
+      "Conducted tutorials on Unix Shell, Bash scripting, Python, and Flask.",
+      "Helped students with project work and technical queries."
+    ]
+  },
+  {
+    "organization": "Goldman Sachs",
+    "role": "Summer Analyst",
+    "location": "Bengaluru, India",
+    "date": "May 2018 - Jul 2018",
+    "summary": [
+      "Tech intern for 10 weeks with a team providing cloud support for application developers."
+    ],
+    "details": [
+      "Automated support ticket resolution and improved cloud provisioning workflows.",
+      "Developed scripts and tools to reduce manual intervention for the support team.",
+      "Collaborated with senior engineers to enhance internal cloud infrastructure."
+    ]
+  }
+] 
